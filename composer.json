@@ -1,0 +1,19 @@
+{
+    "name": "marian/99-bottles",
+    "description": "99 bottles exercise",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Poem\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "phpunit/phpunit": "^9.5"
+    }
+}
